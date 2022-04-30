@@ -1,4 +1,8 @@
+import Character from './Character';
 import * as teste from './Races';
 
-const tes = new teste.Orc('2', 2);
-console.log(tes);
+const tes = new Character('2');
+let tetete = tes.defense;
+tetete = 4;
+console.log(tetete);
+console.log(tes.defense);
